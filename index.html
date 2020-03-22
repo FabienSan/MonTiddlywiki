@@ -10791,7 +10791,7 @@ Modules HC-12 pour augmenter les distances du 433MHz
 	
 </pre>
 </div>
-<div created="20200322094747459" modified="20200322095421447" tags="" title="Hébergement sur GitHub">
+<div created="20200322094747459" modified="20200322095614766" tags="" title="Hébergement sur GitHub">
 <pre>!! Simple hébergement
 
 #Créer un dépôt (//repository//) : https://github.com/new
@@ -10805,7 +10805,25 @@ Modules HC-12 pour augmenter les distances du 433MHz
 
 #Le TiddlyWiki est maintenant accessible depuis l'URL du compte
 
+!! Hébergement avec sauvegarde en ligne
 
+Depuis la version 5.1.20 actuellement en pre-release, il est possible d'enregistrer directement ses modifications sur GitHub sans devoir téléverser tout le fichier.
+
+Discussion sur la liste anglophone du 04/04/2019 : https://groups.google.com/d/msg/tiddlywiki/r-okut9mkJE/jjSsyTm3CAAJ
+
+
+#Créer une //Personal access tokens//
+#*https://github.com/settings/tokens
+#*Attribuer les droits sur ''Repo'' et ''Gist''
+#*[img[img/tokens-repo.png]]
+#*[img[img/tokens-gist.png]]
+#*Conserver précieusement le mot de passe
+
+#Puis configurer les options dans $:/ControlPanel sous l'onglet Sauvegarde puis ''~GitHub Saver''
+
+{{$:/core/ui/ControlPanel/Saving/GitHub}}
+
+Notez que le mot de passe n'est pas enregistré sur TiddlyWiki mais dans le navigateur (comme pour les autres méthodes).
 
 sources
 
