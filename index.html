@@ -385,6 +385,8 @@ Error message and password prompt
 
 <li>VAIO Camille</li>
 
+<li>Voltmetre Ampèremetre</li>
+
 <li>Wemos D1 mini</li>
 
 <li>Wifi</li>
@@ -9709,7 +9711,7 @@ Error message and password prompt
 <div created="20200228142822057" modified="20200304193224040" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Plugins</pre>
 </div>
-<div created="20200131155237990" modified="20200304200943256" title="$:/state/tab/sidebar--595412856">
+<div created="20200131155237990" modified="20200325142553960" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/Recent</pre>
 </div>
 <div created="20200214082317348" modified="20200214082337470" title="$:/state/tabs/controlpanel/toolbars-1345989671">
@@ -9721,17 +9723,17 @@ Error message and password prompt
 <div created="20200228145232944" modified="20200228145232944" title="$:/state/tag-manager/Domoticz">
 <pre>open</pre>
 </div>
-<div created="20200304080458041" modified="20200304080501082" title="$:/state/toc/section-électronique-389492813">
-<pre>close</pre>
+<div created="20200304080458041" modified="20200325133610624" title="$:/state/toc/section-électronique-389492813">
+<pre>open</pre>
 </div>
 <div created="20200304080614644" modified="20200304085748889" title="$:/state/toc/section-raspberry-389492813">
 <pre>open</pre>
 </div>
-<div created="20200322095330620" list="" modified="20200325132753157" title="$:/StoryList">
+<div created="20200322095330620" list="" modified="20200325142555760" title="$:/StoryList">
 <pre></pre>
 </div>
-<div created="20200212145951541" modified="20200304193405159" title="$:/temp/advancedsearch">
-<pre>[tags[]sort[title]]</pre>
+<div created="20200212145951541" modified="20200325142544104" title="$:/temp/advancedsearch">
+<pre>aide</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
 <pre>{
@@ -9791,8 +9793,8 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20200210164744260" modified="20200322175801615" title="$:/temp/search">
-<pre>aide</pre>
+<div created="20200210164744260" modified="20200325142544105" title="$:/temp/search">
+<pre></pre>
 </div>
 <div created="20200228145944944" modified="20200322095315125" title="$:/temp/tw-receiver-stalehash">
 <pre>aa1dc302796b9b5101e774a5a4ab7ffec6228918792d6b2bfac11a4954f871f8</pre>
@@ -12231,21 +12233,23 @@ $list filter=&quot;[tag[TableOfContents]] [tag[]] +[sort[sub.num]]&quot;
 
 </pre>
 </div>
-<div created="20200225135108536" modified="20200304203148092" tags="électronique" title="Thyristor">
+<div created="20200225135108536" modified="20200325144349993" tags="électronique" title="Thyristor">
 <pre>[img width=620 [./images/Thyristor.png]]
 
-&quot;&quot;&quot;
+
 En suivant la convention récepteur on peut définir : 
-	• Vak tension entre l'anode et la cathode du thyristor ;
-	• Vgk tension entre la gâchette et la cathode ;
-	• Iak courant considéré comme positif lorsque traversant le thyristor de l'anode vers la cathode ;
-	• Igk courant considéré comme positif lorsque rentrant sur la gâchette.
+
+* 	 ''Vak'' tension entre l'anode et la cathode du thyristor ;
+* 	 ''Vgk'' tension entre la gâchette et la cathode ;
+* 	 ''Iak'' courant considéré comme positif lorsque traversant le thyristor de l'anode vers la cathode ;
+* 	 ''Igk ''courant considéré comme positif lorsque rentrant sur la gâchette.
 
 Schéma des couches et des jonctions d'un thyristor.
-Un thyristor a trois états possibles2,3 : 
-	1. Tension négative, thyristor bloqué : Vak est négatif, comme une diode dans ce cas, il est bloqué ;
-	2. Tension positive, thyristor bloqué : Vak est positif, mais Igk est nul. À la différence d'une diode, le thyristor est bloqué ;
-	3. Tension positive, thyristor passant : Vak est positif (supérieure à la tension de seuil), une impulsion d'un courant Igk positive a été donnée entre la gâchette et la cathode. Le thyristor est passant : il conduit, le courant Iak traverse le thyristor de l'anode vers la cathode. Lorsque celui-ci dépasse initialement la valeur du courant de verrouillageanglais 2, le thyristor reste conducteur tant que le courant ne descend pas en dessous d'une certaine valeur, appelée courant de maintienanglais 3. Il se comporte à nouveau comme une diode. Il y a une chute de tension aux bornes du thyristor, légèrement plus grande que la tension de seuil, de l'ordre de 1 ou 2 volts2.
+Un thyristor a trois états possibles : 
+
+# 	 Tension négative, thyristor bloqué : ''Vak ''est négatif, comme une diode dans ce cas, il est bloqué ;
+# 	Tension positive, thyristor bloqué : ''Vak ''est positif, mais ''Igk ''est nul. À la différence d'une diode, le thyristor est bloqué ;
+# 	Tension positive, thyristor passant : ''Vak ''est positif (supérieure à la tension de seuil), une impulsion d'un courant ''Igk ''positive a été donnée entre la gâchette et la cathode. Le thyristor est passant : il conduit, le courant ''Iak ''traverse le thyristor de l'anode vers la cathode. Lorsque celui-ci dépasse initialement la valeur du'' courant de verrouillage'', le thyristor reste conducteur tant que le courant ne descend pas en dessous d'une certaine valeur, appelée'' courant de maintien''. Il se comporte à nouveau comme une diode. Il y a une chute de tension aux bornes du thyristor, légèrement plus grande que la tension de seuil, de l'ordre de 1 ou 2 volts.
 
 &quot;&quot;&quot;
 
@@ -12566,6 +12570,42 @@ iwlist scanning | grep 'Signal\ESSID'
 iwlist scanning | grep 'Signal\|ESSID'
 ```
 
+</pre>
+</div>
+<div created="20200325140019411" modified="20200325142956279" tags="" title="Voltmetre Ampèremetre">
+<pre>voltmètre numérique ampèremètre rouge bleu LED double affichage tension indicateur de courant moniteur détecteur
+
+
+
+
+[img width=420 [http://www.radioman33.com/medias/images/va-interieur.jpg?fx=r_800_480]]
+
+
+Caractéristiques:
+
+* Taille: 48mm x 29mm x 21mm.
+* Couleur d'affichage: LED rouge et bleu (double affichage).
+* Affichage: 0.28 &quot;LED numérique.
+* Tension de fonctionnement: DC 4.5 ~ 30 V.
+* Tension de mesure: DC 0 ~ 100 V.
+* Résolution minimale (V): 0.1 V.
+* Taux de rafraîchissement: ≥500ms/times.
+* Précision de mesure: 1% (± 1 chiffre).
+* Résolution minimale (A): 0.01A.
+* Courant de fonctionnement: &lt;20mA.
+* Mesure du courant: 10A (mesure directe, shunt intégré).
+* Température de fonctionnement:-10 à 65°c.
+* Humidité de fonctionnement: 10 à 80% (sans condensation).
+* Découpe de montage: 45.5mm x 26.5mm
+
+
+NOTE:
+
+    Il est inapproprié d'utiliser ce compteur pour tester un courant inférieur à 1A, si vous l'utilisez pour tester un ampères inférieur à 1A, il aura une grande erreur.
+
+BRANCHEMENTS
+
+[img[http://www.radioman33.com/medias/images/alim03-1.jpg?fx=r_800_533]]
 </pre>
 </div>
 <div created="20200213163322394" modified="20200304201916546" tags="réseau programmation ESP" title="Wemos D1 mini">
