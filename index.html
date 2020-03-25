@@ -313,6 +313,8 @@ Error message and password prompt
 
 <li>Hébergement sur GitHub</li>
 
+<li>Hébergemnt Tiddlywiki</li>
+
 <li>Images disques</li>
 
 <li>Installation LAMP</li>
@@ -366,6 +368,8 @@ Error message and password prompt
 <li>Suppression du swap</li>
 
 <li>TableOfContents</li>
+
+<li>test</li>
 
 <li>Thyristor</li>
 
@@ -9723,7 +9727,7 @@ Error message and password prompt
 <div created="20200304080614644" modified="20200304085748889" title="$:/state/toc/section-raspberry-389492813">
 <pre>open</pre>
 </div>
-<div created="20200322095330620" list="[[Aide saisie Tiddler]] [[nourriture chien]]" modified="20200323171208791" title="$:/StoryList">
+<div created="20200322095330620" list="" modified="20200325132753157" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200212145951541" modified="20200304193405159" title="$:/temp/advancedsearch">
@@ -9954,8 +9958,16 @@ https://blog.sleeplessbeastie.eu/2018/12/31/how-to-disable-onboard-wifi-and-blue
 https://arduino103.blogspot.com/2019/06/raspberry-pi-4-la-revolution.html
 </pre>
 </div>
-<div created="20200214094813248" modified="20200324102530053" tags="" title="Aide saisie Tiddler">
-<pre>Pour insérer une image externe
+<div created="20200214094813248" modified="20200324143212601" tags="" title="Aide saisie Tiddler">
+<pre>Ceci est du @@background-color:yellow;texte en jaune et noir@@.
+
+@@color:red; This is ''red'' text@@
+
+@@color:green;
+And this is green text.
+@@
+
+Pour insérer une image externe
 
 `[img width=220 [./images/Digispark.PNG]]`
 
@@ -10797,7 +10809,7 @@ Modules HC-12 pour augmenter les distances du 433MHz
 	
 </pre>
 </div>
-<div created="20200322094747459" modified="20200322101609161" tags="" title="Hébergement sur GitHub">
+<div created="20200322094747459" modified="20200325095253949" tags="" title="Hébergement sur GitHub">
 <pre>!! Simple hébergement
 
 #Créer un dépôt (//repository//) : https://github.com/new
@@ -10831,15 +10843,37 @@ Le principe consiste à se munir d'un token qui sera utilisé par le navigateur 
 Notez que le mot de passe n'est pas enregistré sur TiddlyWiki mais dans le navigateur (comme pour les autres méthodes).
 
 
-!! Hébergement avec Node.js
+!! Hébergement fractionné des tiddler
 
-voir  https://kookma.github.io/Tiddlywiki-Github-Pages-Travis-CI/ 1 pour héberger une version Node.js des fichiers et non plus la version single file
+Pour héberger une version Node.js des fichiers et non plus la version single file il faut en plus d'un compte GitHub, un compte Travis-ci. Ce dernier se charge de compiler les Tiddlers indépendants dans un document unique html.
+
+voir :
+https://kookma.github.io/Tiddlywiki-and-GitHub-Pages/
 
 
+
+https://forum.tiddlywiki.fr/t/heberger-un-tiddlywiki-sur-github-sans-connaissance-de-git/99
 
 sources
 
-http://silvyn.github.io/tw-github/</pre>
+http://silvyn.github.io/tw-github/
+
+https://github.github.com/training-kit/downloads/fr/github-git-cheat-sheet.pdf
+</pre>
+</div>
+<div created="20200324104049658" modified="20200325095113733" tags="" title="Hébergemnt Tiddlywiki">
+<pre>*hébergement en local
+** en local sur son pc
+** sur un serveur à domicile
+***avec LAMP
+***avec node.js
+***avec json
+
+*hébergement à distance
+
+** [[Hébergement sur GitHub]]
+** [[Hébergement sur cloud]]
+</pre>
 </div>
 <div created="20200211111620438" modified="20200213111423601" tags="linux" title="Images disques">
 <pre>Pour effectuer des images disque
@@ -12179,6 +12213,22 @@ $list filter=&quot;[tag[TableOfContents]] [tag[]] +[sort[sub.num]]&quot;
 {{{ [toc[TableOfContents]] }}}
 
 {{{ [toc[ESP]] }}}
+</pre>
+</div>
+<div created="20200324144908968" modified="20200325103533539" tags="" title="test">
+<pre>[ext[title|Documentations.pdf]] 
+
+[ext[aide Github|https://github.github.com/training-kit/downloads/fr/github-git-cheat-sheet.pdf]]
+
+
+
+[img width=220 [https://fr.wikipedia.org/wiki/Thyristor#/media/Fichier:Thyristor_circuit_symbol.svg]]
+
+
+
+
+&lt;$image  width=420  source=&quot;https://fr.wikipedia.org/wiki/Thyristor#/media/Fichier:Thyristor_circuit_symbol.svg&quot;&gt;
+
 </pre>
 </div>
 <div created="20200225135108536" modified="20200304203148092" tags="électronique" title="Thyristor">
